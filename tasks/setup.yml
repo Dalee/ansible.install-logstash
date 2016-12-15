@@ -1,6 +1,6 @@
 - name: logstash - jvm options
   template:
-    src: "logstash/jvm.options.j2"
+    src: "jvm.options.j2"
     dest: "/etc/logstash/jvm.options"
     mode: 0644
     owner: "root"
